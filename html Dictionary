@@ -1,9 +1,11 @@
-h1 and h6 The <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. 
-<h6> defines the least important heading.
+h1,h2,h3,h4,h5,h6. 
+The <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. <h6> defines the least important heading.
 
- <p> tag defines a paragraph.
+<p> tag defines a paragraph.
 Browsers automatically add some space (margin) before and after each <p> element. 
+
 The margins can be modified with CSS (with the margin properties).
+
 
 ul =stands for unordered list. li stands for list item.
  They are the HTML tags for "bulleted" lists as opposed to "numbered" lists (which are specified by ol for ordered list)
@@ -19,8 +21,9 @@ By default, links will appear as follows in all browsers: An unvisited link is u
 
 img =The <img> tag defines an image in an HTML page. 
 The <img> tag has two required attributes: src and alt.
-Note: Images are not technically inserted into an HTML page, images are linked to HTML pages. 
-The <img> tag creates a holding space for the referenced image.
+ Note: Images are not technically inserted into an HTML page, images are linked to HTML pages. 
+ The <img> tag creates a holding space for the referenced image.
+
 
 titles or headings.
 
@@ -36,7 +39,10 @@ Good for the subheadings.
 attribues: none 
 example: <h6>Things I like</h6>
 
-<!DOCKTYPE>
-<body>
-<head>
-<html>
+<html> <!-- marks the beginning and end of your HTML code-->
+					 
+<head> <!--contains things for your web browser to thin about -->
+
+<title>First Website</title>
+   
+<body> <!--Body contains content -->
